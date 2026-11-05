@@ -61,3 +61,10 @@ from OCC.Core.BRepPrimAPI import BRepPrimAPI_MakeBox
 
 shape = BRepPrimAPI_MakeBox(10, 20, 30).Shape()
 ```
+
+## Licensing
+
+The build scripts in this repository are free to use. The wheels contain third-party software that belongs to its owners, so check their licenses:
+
+- [pythonocc-core license](https://github.com/tpaviot/pythonocc-core/blob/master/LICENSE)
+- [OCCT license](https://github.com/Open-Cascade-SAS/OCCT/blob/V7_9_3/LICENSE_LGPL_21.txt) and [LGPL exception](https://github.com/Open-Cascade-SAS/OCCT/blob/V7_9_3/OCCT_LGPL_EXCEPTION.txt)
